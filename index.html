@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scrabble score checker</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body onload="init()">
+    <section class="page">
+              <header>
+                  <h2> Scrabble score calculator </h2>
+              </header>
+        <ul class=list>
+            <li> Input the word in the box without space.</li>
+            <li> Press the calculate button.</li>
+            <li> See your score</li>
+        </ul>
+    <section class="form">
+        <input type="text" placeholder=" Input word here..." required id="inputDisplay">
+        <button type="submit" onclick="showScore();">Calculate</button>
+        <div class="score" id="score"> 
+                Score: 
+            </div>
+            <div class="emblem" >
+                Sage X
+            </div>
+    </section>
+
+    
+    </section>
+</body>
+</html>

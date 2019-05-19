@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+    width: 100%
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.list{ 
+    
+    
+    margin-top: -50px;
+    margin-left: -7em;
+    list-style-type: square;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.page{
+    border: 1px solid crimson;
+    border-radius: 10px;
+    margin: 5em auto 5em 25em;
+    padding: 10em;
+    display: inline-block;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.score{
+    margin-top:40px;
+    border: 1px solid lightgrey;
+    padding: 0.8em 1em;
+    background-color: crimson;
+    border-radius: 7px;
+    color:#ffffff;
+  
+}
+
+.form{
+    margin-top: 100px;
+}
+
+input{
+    border: 1px solid lightgrey;
+    padding: 0.8em 1em;
+    border-radius: 5px;
+}
+
+button{
+    border: 1px solid crimson;
+    margin-left: 40px;
+    padding: 0.5em 0.5em;
+    background-color: crimson;
+    color:#ffffff;
+    border-radius: 3px;
+}
+
+.emblem{
+    position:absolute;
+    bottom: 0;
+    margin-left: 20em;
+    margin-bottom: 3em;
+    font-family: cursive;
+    font-style: italic;
+    
+}
+
+header{
+    position: absolute;
+    top:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:crimson;
+    border: 1px solid crimson;
+    background-color: #ffffff;
+    border-top: lightgray;
+    padding: 0em 1em;
+}
